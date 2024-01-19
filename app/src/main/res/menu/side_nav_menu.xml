@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:id="@+id/adminAddProducts"
+        android:visible="true">
+        <item android:title="Admin">
+            <menu>
+                <item
+                    android:id="@+id/admin_dashboard"
+                    android:icon="@drawable/dashboard"
+                    android:title="Dashboard" />
+                <item
+                    android:id="@+id/admin_add_products"
+                    android:icon="@drawable/add_products"
+                    android:title="@string/add_products" />
+                <item
+                    android:id="@+id/admin_products_list"
+                    android:icon="@drawable/product_list"
+                    android:title="Product List" />
+                <item
+                    android:id="@+id/admin_orders"
+                    android:icon="@drawable/orders"
+                    android:title="Manage Orders" />
+                <item
+                    android:id="@+id/admin_manage_products"
+                    android:icon="@drawable/manage_products"
+                    android:title="Manage Products" />
+                <item
+                    android:id="@+id/admin_manage_users"
+                    android:icon="@drawable/manage_users"
+                    android:title="Manage Users" />
+
+            </menu>
+        </item>
+    </group>
+
+
+    <group android:id="@+id/sideNaveGroupAuth"
+        android:visible="false">
+        <item android:title="Profile">
+        <menu>
+        <item
+            android:id="@+id/sideNavLogin"
+            android:icon="@drawable/nav_home"
+            android:title="LogIn" />
+        <item
+            android:id="@+id/sideNavLogout"
+            android:icon="@drawable/nav_home"
+            android:title="side_nav_logout_title"
+            android:visible="false" />
+        </menu>
+        </item>
+    </group>
+
+</menu>
